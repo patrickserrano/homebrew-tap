@@ -1,20 +1,20 @@
 class RunnerMgr < Formula
   desc "CLI tool for managing GitHub Actions self-hosted runners with a TUI dashboard"
   homepage "https://github.com/patrickserrano/runner-dashboard"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/patrickserrano/runner-dashboard/releases/download/v#{version}/runner-mgr-macos-arm64.tar.gz"
-      sha256 "613ce661eaa6ece9f58001871db04688cd5202e37105be74fea3e55397773397"
+      sha256 "1ed7e687ca6289d86a6eb74fb030cdeb45c5dae0843b3399abe79fb5d0ebfd0d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/patrickserrano/runner-dashboard/releases/download/v#{version}/runner-mgr-linux-x64.tar.gz"
-      sha256 "fa7b67dbcafbb969095841daafa7549d2ba55b4821164d25711015812053a183"
+      sha256 "2317b98a74e62d7ddb300d5877070697efe2b6a233c7159a0622b4141afd4cd8"
     end
   end
 
